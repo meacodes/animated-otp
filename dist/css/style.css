@@ -16,8 +16,6 @@ form input {
   width:40px;
   height:60px;
   text-align:center;
-  width: 40px;
-  height: 60px;
   font-size: 2em;
   padding: 10px;
   border-radius: 6px;
@@ -42,7 +40,6 @@ form input:focus {
 }
 .submit:hover {
   background-color: rgba(58, 189, 221, 1);
-
 }
 .space {
   margin-right: 2rem !important;
