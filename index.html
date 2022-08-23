@@ -9,7 +9,7 @@
 
 <body>
   <div class="container">
-    <form action="" class="mt-5">
+    <form id="Opt" action="your_handler.php">
         <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)' maxlength=1>
         <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)' maxlength=1>
         <input class="space" type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)' maxlength=1>
@@ -17,7 +17,7 @@
         <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(5)' maxlength=1>
         <input type="text" oninput='digitValidate(this)' onkeyup='tabChange(6)' maxlength=1>
       </form>
-    <a class="submit" href="#">Verify</a>
+    <a class="submit" href="javascript:{}" onclick="document.getElementById('Opt').submit();">Verify</a>
   </div>
 </body>
 </html>
